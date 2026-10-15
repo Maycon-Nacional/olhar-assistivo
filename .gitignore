@@ -39,3 +39,15 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# build do módulo nativo
+modules/*/android/build/
+modules/*/android/.gradle/
+.gradle/
+*.apk
+*.aab
+
+# chaves de API (nunca versionar; ver .env.example)
+.env
+.env.*
+!.env.example
